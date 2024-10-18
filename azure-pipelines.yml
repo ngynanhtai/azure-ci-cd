@@ -10,7 +10,7 @@ pool: myAgentPool
 
 variables:
   azureServiceConnectionId: 'myServiceConnection'
-  webAppName: 'python-web-app'
+  webAppName: 'udacity-project-2'
   environmentName: 'python-environment'
   projectRoot: $(System.DefaultWorkingDirectory)
   mainPool: 'myAgentPool'
