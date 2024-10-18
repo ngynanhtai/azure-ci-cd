@@ -11,7 +11,7 @@ pool: myAgentPool
 variables:
   azureServiceConnectionId: 'myServiceConnection'
   webAppName: 'flask-app-python'
-  environmentName: 'python-environment'
+  environmentName: 'flask-environment'
   projectRoot: $(System.DefaultWorkingDirectory)
 
 stages:
