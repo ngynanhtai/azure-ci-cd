@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/odluser2688280332/python-project/_apis/build/status%2Fngynanhtai.azure-ci-cd?branchName=main)](https://dev.azure.com/odluser2688280332/python-project/_build/latest?definitionId=1&branchName=main)
+
 # Overview
 
 <TODO: complete this with an overview of your project>
