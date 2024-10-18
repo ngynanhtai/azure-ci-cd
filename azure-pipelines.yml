@@ -10,7 +10,7 @@ pool: myAgentPool
 
 variables:
   azureServiceConnectionId: 'myServiceConnection'
-  webAppName: 'flash-python-app'
+  webAppName: 'flask-app-python'
   environmentName: 'python-environment'
   projectRoot: $(System.DefaultWorkingDirectory)
 
