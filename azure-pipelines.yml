@@ -10,7 +10,7 @@ pool: myAgentPool
 
 variables:
   azureServiceConnectionId: 'myServiceConnection'
-  webAppName: 'udacity-project-2'
+  webAppName: 'flash-python-app'
   environmentName: 'python-environment'
   projectRoot: $(System.DefaultWorkingDirectory)
 
@@ -69,6 +69,7 @@ stages:
             - task: AzureWebApp@1
               displayName: 'Deploy Azure Web App'
               inputs:
+                appType: webApp
                 azureSubscription: $(azureServiceConnectionId)
                 appName: $(webAppName)
                 package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
