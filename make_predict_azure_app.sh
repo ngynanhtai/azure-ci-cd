@@ -25,4 +25,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://udacity-project-2.azurewebsites.net:$PORT/predict
+     -X POST https://flash-python-app.azurewebsites.net:$PORT/predict
