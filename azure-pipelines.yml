@@ -13,14 +13,13 @@ variables:
   webAppName: 'udacity-project-2'
   environmentName: 'python-environment'
   projectRoot: $(System.DefaultWorkingDirectory)
-  mainPool: 'myAgentPool'
 
 stages:
 - stage: Build
   displayName: Build stage
   jobs:
   - job: BuildJob
-    pool: $(mainPool)
+    pool: myAgentPool
     steps:    
     - script: |
         python3.10 -m pip install --upgrade pip
@@ -61,7 +60,7 @@ stages:
   condition: succeeded()
   jobs:
   - deployment: DeploymentJob
-    pool: $(mainPool)
+    pool: myAgentPool
     environment: $(environmentName)
     strategy:
       runOnce:
