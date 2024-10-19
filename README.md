@@ -2,18 +2,18 @@
 
 # Overview
 
-<TODO: complete this with an overview of your project>
+A Flask Web App implements Continuous Integration & Continuous Delivery
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+A link to a Trello board for the project: [Trello](https://trello.com/invite/b/67132816942a751c9d371724/ATTI7640898009fb946f9d46ce31b4e2b4b5C12B0C25/udacity-project)
+A link to a spreadsheet that includes the original and final project plan: [Project Plan](https://docs.google.com/spreadsheets/d/1W7-2dZRL0NmAcCXBJ_DMLMAVCHSuuxOiBartLt40X3E/edit?usp=sharing)
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+* Architectural Diagram (Shows how key parts of the system work)
+![image](https://github.com/user-attachments/assets/d2f339e7-0d13-4739-b0e3-a80625075114)
+
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
