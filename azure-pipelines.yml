@@ -11,7 +11,7 @@ pool: myAgentPool
 variables:
   azureServiceConnectionId: 'myServiceConnection'
   webAppName: 'udacity-project-02'
-  environmentName: 'develop'
+  environmentName: 'flask-environment'
   projectRoot: $(System.DefaultWorkingDirectory)
 
 stages:
