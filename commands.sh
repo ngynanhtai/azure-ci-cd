@@ -1,1 +1,1 @@
-az webapp up --name flask-cicd-project --resource-group Azuredevops --sku B1 --logs --runtime "PYTHON:3.10"
+az webapp up -n flask-cicd-project
