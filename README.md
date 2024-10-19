@@ -1,3 +1,4 @@
+[![Python application test with Github Actions](https://github.com/ngynanhtai/azure-ci-cd/actions/workflows/main.yml/badge.svg)](https://github.com/ngynanhtai/azure-ci-cd/actions/workflows/main.yml)
 [![Build Status](https://dev.azure.com/odluser268853/python-project/_apis/build/status%2Fngynanhtai.azure-ci-cd?branchName=main)](https://dev.azure.com/odluser268853/python-project/_build/latest?definitionId=1&branchName=main)
 
 # Overview
