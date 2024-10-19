@@ -22,18 +22,18 @@ stages:
     pool: myAgentPool
     steps:    
     - script: |
-        python3.9 -m pip install --upgrade pip
-        python3.9 -m pip install setup
-        python3.9 -m pip install -r requirements.txt
+            python3.9 -m venv .env
+            source .env/bin/activate
+            pip install setuptools
+            pip install -r requirements.txt
       workingDirectory: $(projectRoot)
       displayName: 'Install python'
 
     - script: |
         export PATH=$HOME/.local/bin:$PATH
-        make install
         make lint
       workingDirectory: $(projectRoot)
-      displayName:  'Run make'
+      displayName:  'Run lint test'
 
     - task: ArchiveFiles@2
       displayName: 'Archive files'
