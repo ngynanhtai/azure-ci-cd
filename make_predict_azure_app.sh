@@ -25,4 +25,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://python-cicd-project.azurewebsites.net:$PORT/predict 
+     -X POST https://flask-cicd-project.azurewebsites.net:$PORT/predict 

@@ -10,8 +10,8 @@ pool: myAgentPool
 
 variables:
   azureServiceConnectionId: 'myServiceConnection'
-  webAppName: 'python-cicd-project'
-  environmentName: 'build-and-deploy'
+  webAppName: 'flask-cicd-project'
+  environmentName: 'deploy'
   projectRoot: $(System.DefaultWorkingDirectory)
 
 stages:
