@@ -25,4 +25,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://udacity-project-02.azurewebsites.net:$PORT/predict 
+     -X POST https://python-cicd-project.azurewebsites.net:$PORT/predict 

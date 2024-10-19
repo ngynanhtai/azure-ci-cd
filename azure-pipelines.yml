@@ -10,7 +10,7 @@ pool: myAgentPool
 
 variables:
   azureServiceConnectionId: 'myServiceConnection'
-  webAppName: 'udacity-project-02'
+  webAppName: 'python-cicd-project'
   environmentName: 'build-and-deploy'
   projectRoot: $(System.DefaultWorkingDirectory)
 
