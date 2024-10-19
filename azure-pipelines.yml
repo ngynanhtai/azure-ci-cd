@@ -31,15 +31,9 @@ stages:
     - script: |
         export PATH=$HOME/.local/bin:$PATH
         make install
-      workingDirectory: $(projectRoot)
-      displayName: 'Run make install'
-
-    - script: |
-        export PATH=$HOME/.local/bin:$PATH
-        make install
         make lint
       workingDirectory: $(projectRoot)
-      displayName:  'Run lint tests'
+      displayName:  'Run make'
 
     - task: ArchiveFiles@2
       displayName: 'Archive files'
