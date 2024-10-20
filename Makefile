@@ -1,5 +1,5 @@
 setup:
-	python3.9 -m venv ~/.udacity-devops
+	python3.9 -m venv ~/.myrepo
 
 install:
 	pip install --upgrade pip &&\
